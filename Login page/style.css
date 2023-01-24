@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background: url(finalbackground.jpg) no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+label {
+  font-size: 20px;
+  color: lightgray;
+  font-family: monospace;
+}
+
+#border-box {
+  height: 316px;
+  width: 520px;
+  background-color: rgba(29, 29, 29, 0.685);
+  padding-top: 100px;
+  padding-left: 35px;
+  border-radius: 20px;
+  margin-left: 0px;
+  margin-left: 450px;
+  margin-top: 150px;
+  position: fixed;
+}
+
+#username {
+  background-color: rgb(49, 49, 49);
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 18px;
+}
+#password {
+  background-color: rgb(49, 49, 49);
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 18px;
+}
+
+.forgot-pass-redirect {
+  text-decoration: none;
+  font-size: 13px;
+  color: gray;
+}
+
+.forgot-pass-redirect:hover {
+  text-decoration: underline;
+}
+
+#submission {
+  width: 300px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: lightsteelblue;
+}
+
+#submission:hover {
+  cursor: pointer;
+  background-color: steelblue;
+  transition: 0.5s;
+}

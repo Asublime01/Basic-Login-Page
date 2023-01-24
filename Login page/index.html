@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Practice Login</title>
+  </head>
+  <body>
+    <div id="border-box">
+      <form action="submissions.py" method="post" id="login-info" class="login">
+        <section id="user-info">
+          <label for="username">Email / Phone number / Username</label><br />
+          <br />
+          <input type="text" id="username" name="username" /><br />
+          <br />
+          <label for="password">Password</label><br />
+          <br />
+          <input type="password" id="password" name="password" /><br />
+          <a href="/forgot-password.html" class="forgot-pass-redirect"
+            >Forgot your password?</a
+          >
+        </section>
+        <section id="submit">
+          <br />
+          <input type="submit" id="submission" value="Login" />
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
